@@ -213,7 +213,7 @@ h1 {
 .footer {
 	background-color: #ededed;
 	width: 100%;
-	height: 300px;
+	height: 500px;
 }
 .contacts a {
 	padding-top: 30px;
@@ -222,6 +222,7 @@ h1 {
 	font-size: 22px;
 }
 .rnb {
+	margin-top: 150px;
 	display: flex;
 }
 .rnb img {
@@ -272,7 +273,10 @@ h1 {
 }
 @media screen and (max-width: 900px) {
 	nav ul li {
-		font-size: 16px;
+		font-size: 24px;
+	}
+	.header {
+		height: 100px;
 	}
 	.our-games {
 		margin-bottom: 10px;
@@ -292,7 +296,7 @@ h1 {
 }
 @media screen and (max-width: 550px) {
 	nav ul li {
-		font-size: 16px;
+		font-size: 24px;
 	}
 }
 @media screen and (max-width: 500px) {
@@ -300,7 +304,7 @@ h1 {
 		margin-right: 100px;		
 	}
 	nav ul li{
-		font-size: 14px;	
+		font-size: 24px;	
 	}
 	.our-games {
 		margin-right: 13px;
@@ -319,9 +323,8 @@ h1 {
 }
 @media screen and (max-width: 450px) {
 	.answer {
-		font-size: 16px;
+		font-size: 24px;
 	}
-	flex-wrap: wrap;
 	.our-games {
 		width: 40px;
 	}
