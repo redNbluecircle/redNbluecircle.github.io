@@ -329,3 +329,28 @@ h1 {
 		width: 40px;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+	nav ul li {
+		font-size: 24px;
+	}
+}
+@media screen and (max-width: 500px) {
+	nav ul {
+		margin-right: 100px;		
+	}
+	nav ul li {
+		font-size: 24px;
+	}
+}

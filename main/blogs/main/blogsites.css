@@ -33,7 +33,7 @@ nav ul {
 	display: flex;
 }
 nav ul li {
-	font-size: 22px;
+	font-size: 25px;
 	list-style-type: none;
 	padding-right: 30px;
 }
@@ -67,7 +67,7 @@ nav ul li a:hover {
 	font-size: 24px;
 	color: #FFF;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-around;
 }
 .userimg img{
 	border-radius: 50%
@@ -107,4 +107,18 @@ nav ul li a:hover {
 .rnb h2 {
 	color: #fff;
 	font-size: 38px;
+}
+
+@media screen and (max-width: 900px) {
+	nav ul li {
+		font-size: 24px;
+	}
+}
+@media screen and (max-width: 500px) {
+	nav ul {
+		margin-right: 100px;		
+	}
+	nav ul li {
+		font-size: 24px;
+	}
 }

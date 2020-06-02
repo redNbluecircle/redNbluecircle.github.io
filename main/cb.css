@@ -132,3 +132,16 @@ nav ul li a:hover {
 .rnb h2 {
 	font-size: 38px;
 }
+@media screen and (max-width: 900px) {
+	nav ul li {
+		font-size: 24px;
+	}
+}
+@media screen and (max-width: 500px) {
+	nav ul {
+		margin-right: 100px;		
+	}
+	nav ul li {
+		font-size: 24px;
+	}
+}
