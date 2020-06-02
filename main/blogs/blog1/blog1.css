@@ -127,12 +127,9 @@ nav ul li a:hover {
 	width: 75%;
 	height: 25%;
 }
-.past {
-	line-height: 30px;
-	color: white;
-	font-size: 28px;
-}
 .next {
+	float: right
+	padding-bottom: 50px;
 	line-height: 30px;
 	color: white;
 	font-size: 28px;
